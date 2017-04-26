@@ -93,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
         shareIntent.setType("image/png");
         shareIntent.putExtra(Intent.EXTRA_STREAM, imageUri);
         shareIntent.putExtra(Intent.EXTRA_TITLE, getString(R.string.share_social_title, enabledOblastsCount));
+        shareIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.share_social_title, enabledOblastsCount));
         shareIntent.putExtra(Intent.EXTRA_TEXT, getString(R.string.share_social_text, enabledOblastsCount));
         startActivity(Intent.createChooser(shareIntent, getString(R.string.share)));
     }
