@@ -1,6 +1,8 @@
 package com.blogspot.androidgaidamak.tvojakrajina.coloringview;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.ColorInt;
@@ -49,6 +51,16 @@ public class UkraineMapView extends FrameLayout {
     public void clearOblast(Oblast oblast) {
         Drawable drawable = ((AppCompatImageView) findViewById(oblast.getId())).getDrawable();
         DrawableCompat.setTint(drawable, Color.TRANSPARENT);
+    }
+
+    public Bitmap createBitmap() {
+        int width = getWidth();
+        int height = getHeight();
+        Bitmap b = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
+        Canvas c = new Canvas(b);
+        layout(getLeft(), getTop(), getRight(), getBottom());
+        draw(c);
+        return b;
     }
 
     public enum Oblast {

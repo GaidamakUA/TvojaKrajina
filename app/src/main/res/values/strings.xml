@@ -29,4 +29,7 @@
     <string name="oblast_activity_title">Оберіть області, де ви побували</string>
     <string name="main_activity_title_template">Відвідано %1$d/25 Областей</string>
     <string name="confirm">Підтвердити</string>
+    <string name="share">Поділитись</string>
+    <string name="share_social_text">Я побував в %1$d з 25ти областей України, а ти? #твояКраїна #25областейДо25років. Потрапити на визит https://vk.com/tvojakrajina</string>
+    <string name="share_social_title">Твоя країна вже %1$d/25 областей</string>
 </resources>
