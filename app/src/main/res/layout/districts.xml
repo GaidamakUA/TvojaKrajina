@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <merge
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/chernihiv_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_chernihiv_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/chernivtsi_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_chernivtsi_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/cherkasy_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_cherkasy_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/crimean_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_crimean_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/dnipropetrovsk_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_dnipropetrovsk_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/donetsk_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_donetsk_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/ivano_frankivsk_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_ivano_frankivsk_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/kharkiv_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_kharkiv_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/kherson_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_kherson_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/khmelnytskyi_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_khmelnytskyi_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/kirovohrad_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_kirovohrad_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/kyiv_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_kyiv_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/luhansk_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_luhansk_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/lviv_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_lviv_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/mykolaiv_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_mykolaiv_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/odesa_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_odessa_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/poltava_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_poltava_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/rivne_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_rivne_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/sumy_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_sumy_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/ternopil_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_ternopil_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/vinnytsia_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_vinnytsia_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/volyn_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_volyn_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/zakarpattia_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_zakarpattia_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/zaporizhia_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_zaporizhia_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/zhytomyr_oblast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_zhytomyr_oblast"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_map_ukraine_vector_transparent"/>
+
+    </merge>
+</layout>
