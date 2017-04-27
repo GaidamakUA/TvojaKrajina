@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "970893887587",
+    "firebase_url": "https://tvojakrajina-a3679.firebaseio.com",
+    "project_id": "tvojakrajina-a3679",
+    "storage_bucket": "tvojakrajina-a3679.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970893887587:android:dd256849f99e9abf",
+        "android_client_info": {
+          "package_name": "com.blogspot.androidgaidamak.tvojakrajina"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970893887587-7635tqkubropvctrjsr8hrmfbtcq226m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blogspot.androidgaidamak.tvojakrajina",
+            "certificate_hash": "4935613b951ab298808aa37edec50eb762570e1f"
+          }
+        },
+        {
+          "client_id": "970893887587-bb8t45vki6dq8gfnuarkk6t1rogip8te.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGYCHJWAsZMXbsHDjQ6a8buP1aiSWwff8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970893887587-bb8t45vki6dq8gfnuarkk6t1rogip8te.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

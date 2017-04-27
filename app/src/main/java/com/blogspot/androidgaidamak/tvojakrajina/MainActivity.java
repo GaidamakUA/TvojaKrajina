@@ -16,6 +16,8 @@ import android.view.MenuItem;
 
 import com.blogspot.androidgaidamak.tvojakrajina.coloringview.UkraineMapView;
 import com.blogspot.androidgaidamak.tvojakrajina.databinding.ActivityMainBinding;
+import com.google.firebase.analytics.FirebaseAnalytics;
+import com.google.firebase.crash.FirebaseCrash;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -29,6 +31,8 @@ import static com.blogspot.androidgaidamak.tvojakrajina.OblastsActivity.KEY_ENAB
 public class MainActivity extends AppCompatActivity {
 
     public static final String AUTHORITY = "com.blogspot.androidgaidamak.tvojakrajina.fileprovider";
+
+    private FirebaseAnalytics mFirebaseAnalytics;
     private ActivityMainBinding binding;
     private SharedPreferences preferences;
     private int enabledOblastsCount;
@@ -43,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
         binding.tvojaKrajinaLogo.setOnClickListener(v -> openTvojaKrajinaSite());
+
+        // Obtain the FirebaseAnalytics instance.
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
     }
 
     @Override
@@ -120,8 +127,8 @@ public class MainActivity extends AppCompatActivity {
             outStream.flush();
             outStream.close();
         } catch (Exception e) {
-            throw new RuntimeException(e);
-//            e.printStackTrace();
+            FirebaseCrash.report(e);
+            e.printStackTrace();
         }
         return file;
     }
